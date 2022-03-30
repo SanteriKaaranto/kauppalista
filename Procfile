@@ -1,1 +1,2 @@
-web: gunicorn kauppalista:app
+web: sh -c 'cd ./env/ && gunicorn kauppalista:app'
+testi
